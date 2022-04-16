@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #23252C;
+}
+h1, h2 {
+    font-weight: 700;
+}
+h2 {
+    color: #f5f5f5;
+}
+p {
+    color: #dcdcdc;
+}
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: 400;
+}
+.container {
+    background-color: #1A1B21;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    
+}
+.info {
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.info > img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.info > h3 {
+    color: #F3BF99;
+}
+.contact--buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact--email {
+    background-color: #D1D5DB;
+    color: #374151;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: flex;
+    gap: 8px;
+}
+.contact--linkedin {
+    background-color: #5093E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: flex;
+    gap: 8px;
+}
+.about, .interests {
+    padding: 5px 35px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #161619;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+footer > img {
+    height: 25px;
+}
