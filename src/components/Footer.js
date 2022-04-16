@@ -7,10 +7,10 @@ import github from "../images/github.png"
 export default function Footer() {
     return (
         <footer>
-            <a href="http://twitter.com"><img src={twitter} alt="Twitter logo" /></a>
-            <a href="http://facebook.com"><img src={facebook} alt="Facebook logo" /></a>
-            <a href="http://instagram.com"><img src={instagram} alt="Instagram logo" /></a>
-            <a href="http://github.com"><img src={github} alt="GitHub logo" /></a>
+            <a href="https://twitter.com/Refanraudi"><img src={twitter} alt="Twitter logo" /></a>
+            <a href="https://www.facebook.com/reynirg/"><img src={facebook} alt="Facebook logo" /></a>
+            <a href="https://www.instagram.com/refanraudi/"><img src={instagram} alt="Instagram logo" /></a>
+            <a href="https://github.com/refanr"><img src={github} alt="GitHub logo" /></a>
         </footer>
     )
 }
